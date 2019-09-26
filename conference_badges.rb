@@ -13,5 +13,6 @@ end
   arr = []
   counter = 0 
   attendees.each do |attendee|
-    
+    counter +=1 
+    "Hello, #{attendee}! You'll be assigned to room #{counter}!"
   end
